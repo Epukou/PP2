@@ -33,5 +33,5 @@ wine = wine.dropna()
 # Print only the non-null values in alcohol
 print(wine.loc[wine['alcohol'].notna(), 'alcohol'])
 
-# Reset the index, so it starts with 0 again
+# Reset the index, so it starts with 0 agai
 wine = wine.reset_index(drop=True)
